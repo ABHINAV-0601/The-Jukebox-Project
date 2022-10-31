@@ -72,9 +72,9 @@ public class JukeBoxOperations {
         //System.out.println();
         while(resultSet.next()){
             int songId = resultSet.getInt(1);
-            java.lang.String songName = resultSet.getString(2);
+            String songName = resultSet.getString(2);
             double duration = resultSet.getDouble(3);
-            java.lang.String releaseDate = resultSet.getString(4);
+            String releaseDate = resultSet.getString(4);
             int genreId = resultSet.getInt(5);
             int artistId = resultSet.getInt(6);
 
